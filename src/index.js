@@ -1,7 +1,7 @@
 import 'dotenv/config'
 import * as animal from './animal.js'
 
-async function main() {
+function main() {
   animal.getCats()
 }
 
