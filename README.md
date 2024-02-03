@@ -13,10 +13,15 @@ Project was written in Node.
 Recommend Node version 18, but this project is simple enough where any version >= 16 should reasonably work without issue.
 
 - Clone project
-- Install npm packages
+- Install npm packages by running `npm install`
 - Rename `.env.sample` to `.env`
 - If you do not have one already, sign up for an account at [API Ninjas](https://api-ninjas.com) and create an access token through their website
 - Place API Ninjas access token in `.env` file as API_KEY
+
+For example, your `.env` file will end up looking like this, only with your access token:
+```
+API_KEY=your-token-here
+```
 
 ## How to run this project?
 
