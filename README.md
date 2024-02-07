@@ -13,7 +13,7 @@ Project was written in Node.
 Recommend Node version 18, but this project is simple enough where any version >= 16 should reasonably work without issue.
 
 - Clone project
-- Install npm packages by running `npm install`
+- Install required packages by running `npm install`
 - Rename `.env.sample` to `.env`
 - If you do not have one already, sign up for an account at [API Ninjas](https://api-ninjas.com) and create an access token through their website
 - Place API Ninjas access token in `.env` file as API_KEY
@@ -25,6 +25,6 @@ API_KEY=your-token-here
 
 ## How to run this project?
 
-Simply run this project using `node ./src/index.js` (or you can use the shortcut `npm run start`).
+Use the command `node ./src/index.js` to run the project (or you can use the shortcut `npm run start`).
 If it ran successfully, you should output containing a list of animal names from the API that have "cat" somewhere in their name.
 
