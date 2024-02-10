@@ -1,8 +1,10 @@
-import 'dotenv/config'
-import * as animal from './animal.js'
+import 'dotenv/config';
+import * as animal from './animal.js';
+import * as celebrity from './celebrity.js';
 
-function main() {
-  animal.getCats()
+async function main() {
+  await celebrity.getCelebs();
+  animal.getCats();
 }
 
-main()
+main();
